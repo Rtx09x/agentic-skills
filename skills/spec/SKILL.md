@@ -1,6 +1,6 @@
 ---
 name: spec
-description: High-intensity speccing mode for turning rough intent into an implementation-ready spec. Use when the user invokes $spec or asks Codex to write a spec, PRD, design doc, technical plan, requirements, acceptance criteria, task breakdown, project plan, or $ship-ready handoff. Deeply inspect, research, decompose work into executable task trees, define verification, and produce a concrete build contract.
+description: High-intensity speccing mode for turning rough intent into an implementation-ready spec. Use when the user invokes $spec or asks the agent to write a spec, PRD, design doc, technical plan, requirements, acceptance criteria, task breakdown, project plan, or $ship-ready handoff. Deeply inspect, research, decompose work into executable task trees, define verification, and produce a concrete build contract.
 ---
 
 # Spec

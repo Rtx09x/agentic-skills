@@ -2,7 +2,7 @@
 
 ## `$spec`
 
-Use `$spec` when the project needs sharper definition before coding.
+Use `$spec` when a project needs sharper definition before implementation.
 
 Good prompts:
 
@@ -79,4 +79,3 @@ The skills use precise verification language:
 - `Integration-tested`: multiple components were exercised together.
 - `Full-run verified`: actual requested workflow completed.
 - `Not verified`: check was skipped, unavailable, blocked, or replaced by weaker evidence.
-

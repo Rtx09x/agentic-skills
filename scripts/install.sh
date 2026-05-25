@@ -28,5 +28,4 @@ for skill in spec ship; do
   echo "Installed $skill -> $skill_dest"
 done
 
-echo "Done. Restart Codex if the skills do not appear immediately."
-
+echo "Done. Restart your agent runtime if the skills do not appear immediately."

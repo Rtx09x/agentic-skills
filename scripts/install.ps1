@@ -37,5 +37,4 @@ foreach ($skill in @("spec", "ship")) {
     Write-Host "Installed $skill -> $skillDest"
 }
 
-Write-Host "Done. Restart Codex if the skills do not appear immediately."
-
+Write-Host "Done. Restart your agent runtime if the skills do not appear immediately."

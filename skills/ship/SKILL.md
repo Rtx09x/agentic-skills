@@ -1,6 +1,6 @@
 ---
 name: ship
-description: Extreme high-agency implementation mode for serious project delivery. Use when the user invokes $ship or asks Codex to ship, implement, build, debug, research, polish, verify, go until done, not stop, work through blockers, deliver hackathon-grade quality, or convert rough intent into concrete shipped progress with minimal unnecessary permission gates.
+description: Extreme high-agency implementation mode for serious project delivery. Use when the user invokes $ship or asks the agent to ship, implement, build, debug, research, polish, verify, go until done, not stop, work through blockers, deliver hackathon-grade quality, or convert rough intent into concrete shipped progress with minimal unnecessary permission gates.
 ---
 
 # Ship

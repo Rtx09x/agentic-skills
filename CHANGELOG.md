@@ -12,3 +12,6 @@ Added:
 - Layout validation script.
 - Usage guide and release notes.
 
+Changed:
+
+- Positioned the project as agent-agnostic while keeping Codex-compatible installation support.

@@ -1,6 +1,6 @@
 # Agentic Skills
 
-High-agency Codex skills for turning rough intent into executable specs and shipped work.
+High-agency agent skills for turning rough intent into executable specs and shipped work.
 
 This repository contains two companion skills:
 
@@ -14,7 +14,7 @@ Use `$spec` when the work is fuzzy and needs to become a concrete build contract
 | Skill | Purpose | Use When |
 | --- | --- | --- |
 | [`spec`](skills/spec/SKILL.md) | Convert rough ideas into implementation-ready specs with task trees, acceptance criteria, and verification plans. | You need a PRD, design doc, technical plan, task breakdown, requirements, or `$ship` handoff. |
-| [`ship`](skills/ship/SKILL.md) | Execute end-to-end with high agency: inspect, implement, work through blockers, verify, polish, and report. | You want Codex to build, debug, research, verify, and keep moving until the requested outcome is handled. |
+| [`ship`](skills/ship/SKILL.md) | Execute end-to-end with high agency: inspect, implement, work through blockers, verify, polish, and report. | You want an AI agent to build, debug, research, verify, and keep moving until the requested outcome is handled. |
 
 ## Install
 
@@ -34,7 +34,9 @@ cd agentic-skills
 ./scripts/install.sh
 ```
 
-By default, the scripts install into:
+These skills are plain Markdown skill folders with optional agent UI metadata. They are currently packaged in a Codex-compatible layout and can be adapted to any agent runtime that supports reusable prompt/skill files.
+
+By default, the install scripts target Codex-compatible skill directories:
 
 - `$env:CODEX_HOME\skills` on Windows when `CODEX_HOME` is set.
 - `$CODEX_HOME/skills` on Unix when `CODEX_HOME` is set.
@@ -50,9 +52,9 @@ To install somewhere else:
 ./scripts/install.sh /path/to/skills
 ```
 
-## Manual Install
+## Manual Install / Agent Adaptation
 
-Copy each skill folder into your Codex skills directory:
+For Codex-compatible agents, copy each skill folder into your skills directory:
 
 ```text
 skills/spec -> ~/.codex/skills/spec
@@ -67,6 +69,8 @@ skill-name/
 +-- agents/
     +-- openai.yaml
 ```
+
+For other agents, copy the relevant `SKILL.md` content into that agent's reusable instruction, rule, prompt, or skill mechanism. The files are intentionally self-contained and do not require Codex-specific tools at runtime.
 
 ## Usage
 
