@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ship"
+  short_description: "Extreme implementation mode"
+  default_prompt: "Use $ship to implement this end-to-end, work through blockers, verify it, and report exactly what changed."

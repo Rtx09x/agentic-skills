@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spec"
+  short_description: "Deep executable spec builder"
+  default_prompt: "Use $spec to turn this rough idea into an implementation-ready spec with task tree, acceptance criteria, and verification plan."
